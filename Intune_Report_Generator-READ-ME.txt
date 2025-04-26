@@ -1,0 +1,1 @@
+.\IntuneReportGenerator.ps1 -OutputPath "C:\Reports" -CompanyName "Your Company" -ReportTitle "Intune Configuration Report"
