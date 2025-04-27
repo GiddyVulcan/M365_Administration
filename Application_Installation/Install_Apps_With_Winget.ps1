@@ -32,7 +32,7 @@ Function Install-App {
 
     Try {
         Log "Starting installation of $name..."
-        winget install --id=$id --silent --accept-source-agreements --accept-package-agreements
+        winget install --id=$id --silent --accept-source-agreements --accept-package-agreements --force --scope machine 
         Log "$name installation completed successfully."
     } Catch {
         Log "Error during $name installation: $_"
