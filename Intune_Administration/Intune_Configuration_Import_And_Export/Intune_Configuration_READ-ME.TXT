@@ -1,0 +1,5 @@
+# Basic usage
+.\IntuneConfigProfileScript.ps1 -Mode Import -ImportFolder ".\ExportedProfiles"
+
+# Force overwrite of existing profiles
+.\IntuneConfigProfileScript.ps1 -Mode Import -ImportFolder ".\ExportedProfiles" -Force
