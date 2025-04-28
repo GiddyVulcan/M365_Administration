@@ -1,0 +1,5 @@
+# Test mode - see what would be deleted without making changes:
+.\Delete-OldUpdateGroups.ps1 -DaysToKeep 90 -WhatIf
+
+# Run for real, removing both SUGs and their deployments:
+.\Delete-OldUpdateGroups.ps1 -DaysToKeep 90
